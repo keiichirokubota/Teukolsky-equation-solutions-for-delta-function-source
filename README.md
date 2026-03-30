@@ -7,7 +7,6 @@ The dataset includes numerical solutions to the Teukolsky equation sourced by a 
 
 ### Contents:
 - `/waveform/`: Contains numerical solutions of the Teukolsky equation for various parameters.
-  - Time-domain strain waveform ($h$). Spanning $t \in [-100, 600]$ with a resolution of $\delta t = 10^{-2}$.
   - Time-domain Weyl scalar ($\Psi_4$). Spanning $t \in [-100, 600]$ with a resolution of $\delta t = 10^{-2}$.
   - Frequency-domain Weyl scalar ($\tilde{\Psi}_4$). Spanning $\omega \in [-4, 4]$ with a resolution of $\delta \omega = 10^{-3}$.
 - `/data/`: Contains QNM excitation factor data (curated from Motohashi's dataset). Please note that the units in our dataset are defined as $M=1$, whereas the dataset uses $2M=1$.
